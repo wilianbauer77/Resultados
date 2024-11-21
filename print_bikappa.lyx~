@@ -1,0 +1,146 @@
+#LyX 2.4 created this file. For more info see https://www.lyx.org/
+\lyxformat 620
+\begin_document
+\begin_header
+\save_transient_properties true
+\origin unavailable
+\textclass article
+\use_default_options true
+\maintain_unincluded_children no
+\language american
+\language_package default
+\inputencoding utf8
+\fontencoding auto
+\font_roman "default" "default"
+\font_sans "default" "default"
+\font_typewriter "default" "default"
+\font_math "auto" "auto"
+\font_default_family default
+\use_non_tex_fonts false
+\font_sc false
+\font_roman_osf false
+\font_sans_osf false
+\font_typewriter_osf false
+\font_sf_scale 100 100
+\font_tt_scale 100 100
+\use_microtype false
+\use_dash_ligatures true
+\graphics default
+\default_output_format default
+\output_sync 0
+\bibtex_command default
+\index_command default
+\float_placement class
+\float_alignment class
+\paperfontsize default
+\spacing single
+\use_hyperref false
+\papersize default
+\use_geometry true
+\use_package amsmath 1
+\use_package amssymb 1
+\use_package cancel 1
+\use_package esint 1
+\use_package mathdots 1
+\use_package mathtools 1
+\use_package mhchem 1
+\use_package stackrel 1
+\use_package stmaryrd 1
+\use_package undertilde 1
+\cite_engine basic
+\cite_engine_type default
+\biblio_style plain
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\justification true
+\use_refstyle 1
+\use_formatted_ref 0
+\use_minted 0
+\use_lineno 0
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\leftmargin 1cm
+\topmargin 1cm
+\rightmargin 1cm
+\bottommargin 1cm
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation indent
+\paragraph_indentation default
+\is_math_indent 0
+\math_numbering_side default
+\quotes_style english
+\dynamic_quotes 0
+\papercolumns 1
+\papersides 1
+\paperpagestyle default
+\tablestyle default
+\tracking_changes false
+\output_changes false
+\change_bars false
+\postpone_fragile_content true
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\docbook_table_output 0
+\docbook_mathml_prefix 1
+\end_header
+
+\begin_body
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{gather*}
+f_{Ma}\left(v_{\parallel},v_{\perp}\right)=\frac{1}{\pi^{3/2}v_{T\parallel a}v_{T\perp a}^{2}}\exp\left(-\frac{\left(v_{\parallel}-V_{Da}\right)^{2}}{v_{T\parallel a}^{2}}-\frac{v_{\perp}^{2}}{v_{T\perp a}^{2}}\right)\\
+v_{T\parallel a}^{2}=\frac{2T_{\parallel a}}{m_{a}}\quad v_{T\perp a}^{2}=\frac{2T_{\perp a}}{m_{a}}\\
+\\v_{A}^{2}=\frac{B^{2}}{4\pi n_{i}m_{i}}\\
+\beta_{\parallel a}=\frac{8\pi n_{a}T_{\parallel a}}{B^{2}}\quad\beta_{\perp a}=\frac{8\pi n_{a}T_{\perp a}}{B^{2}}\\
+\\v_{\parallel}=v_{A}u_{\parallel}\quad v_{\perp}=v_{A}u_{\perp}\quad U_{Da}=\frac{V_{Da}}{v_{A}}\\
+\mu_{a}=\frac{m_{i}}{m_{a}}\quad\tilde{q}_{a}=\frac{q_{a}}{q_{i}}\qquad\tilde{n}_{a}=\frac{n_{a}}{n_{i}}\\
+f_{Ma}\left(u_{\parallel},u_{\perp}\right)=\frac{1}{\pi^{3/2}v_{T\parallel a}v_{T\perp a}^{2}}\exp\left(-\frac{v_{A}^{2}\left(u_{\parallel}-U_{Da}\right)^{2}}{v_{T\parallel a}^{2}}-\frac{v_{A}^{2}u_{\perp}^{2}}{v_{T\perp a}^{2}}\right)\\
+\frac{v_{T\parallel a}^{2}}{v_{A}^{2}}=\frac{m_{i}}{m_{a}}\frac{n_{i}}{n_{a}}\frac{8\pi n_{a}T_{\parallel a}}{B^{2}}=\frac{m_{i}}{m_{a}}\frac{n_{i}}{n_{a}}\beta_{\parallel a}=\frac{\mu_{a}}{\tilde{n}_{a}}\beta_{\parallel a}\qquad v_{T\parallel a}=v_{A}\sqrt{\frac{\mu_{a}}{\tilde{n}_{a}}}\sqrt{\beta_{\parallel a}}\\
+\frac{v_{T\perp a}^{2}}{v_{A}^{2}}=\frac{m_{i}}{m_{a}}\frac{n_{i}}{n_{a}}\frac{8\pi n_{a}T_{\perp a}}{B^{2}}=\frac{m_{i}}{m_{a}}\frac{n_{i}}{n_{a}}\beta_{\perp a}=\frac{\mu_{a}}{\tilde{n}_{a}}\beta_{\perp a}\qquad v_{T\perp a}^{2}=v_{A}^{2}\frac{\mu_{a}}{\tilde{n}_{a}}\beta_{\perp a}\\
+\begin{aligned}f_{Ma}\left(u_{\parallel},u_{\perp}\right) & =\frac{1}{\pi^{3/2}v_{T\parallel a}v_{T\perp a}^{2}}\exp\left(-\frac{\left(u_{\parallel}-U_{Da}\right)^{2}}{\frac{\mu_{a}}{\tilde{n}_{a}}\beta_{\parallel a}}-\frac{u_{\perp}^{2}}{\frac{\mu_{a}}{\tilde{n}_{a}}\beta_{\perp a}}\right)\\
+ & =\frac{1}{\pi^{3/2}v_{T\parallel a}v_{T\perp a}^{2}}\exp\left(-\tilde{n}_{a}\frac{\left(u_{\parallel}-U_{Da}\right)^{2}}{\mu_{a}\beta_{\parallel a}}-\frac{\tilde{n}_{a}u_{\perp}^{2}}{\mu_{a}\beta_{\perp a}}\right)\\
+ & =\frac{1}{v_{A}^{3}}\frac{\tilde{n}_{a}^{3/2}}{\pi^{3/2}\mu_{a}^{3/2}\sqrt{\beta_{\parallel a}}\beta_{\perp a}}\exp\left(-\tilde{n}_{a}\frac{\left(u_{\parallel}-U_{Da}\right)^{2}}{\mu_{a}\beta_{\parallel a}}-\frac{\tilde{n}_{a}u_{\perp}^{2}}{\mu_{a}\beta_{\perp a}}\right)
+\end{aligned}
+\end{gather*}
+
+\end_inset
+
+
+\begin_inset Formula 
+\begin{gather*}
+\int d^{3}v\,f_{Ma}\left(v_{\parallel},v_{\perp}\right)=1\Longrightarrow\int d^{3}u\,v_{A}^{3}f_{Ma}\left(u_{\parallel},u_{\perp}\right)=1\\
+\tilde{f}_{Ma}\left(u_{\parallel},u_{\perp}\right)=v_{A}^{3}f_{Ma}\left(u_{\parallel},u_{\perp}\right)\Longrightarrow\boxed{\tilde{f}_{Ma}\left(u_{\parallel},u_{\perp}\right)=\frac{\tilde{n}_{a}^{3/2}}{\pi^{3/2}\mu_{a}^{3/2}\sqrt{\beta_{\parallel a}}\beta_{\perp a}}\exp\left(-\tilde{n}_{a}\frac{\left(u_{\parallel}-U_{Da}\right)^{2}}{\mu_{a}\beta_{\parallel a}}-\frac{\tilde{n}_{a}u_{\perp}^{2}}{\mu_{a}\beta_{\perp a}}\right)}
+\end{gather*}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Kappa:
+\begin_inset Formula 
+\begin{gather*}
+f_{\kappa a}\left(v_{\parallel},v_{\perp}\right)=\frac{1}{\pi^{3/2}\kappa_{a}^{3/2}\theta_{\parallel a}\theta_{\perp a}^{2}}\frac{\Gamma\left(\kappa_{a}+1\right)}{\Gamma\left(\kappa_{a}-\nicefrac{1}{2}\right)}\left(1+\frac{\left(v_{\parallel}-V_{Da}\right)^{2}}{\kappa_{a}\theta_{\parallel a}^{2}}+\frac{v_{\perp}^{2}}{\kappa_{a}\theta_{\perp a}^{2}}\right)^{-\left(\kappa_{a}+1\right)}\\
+\theta_{\parallel a}^{2}=\left(1-\frac{3}{2\kappa_{a}}\right)v_{T\parallel a}^{2}\quad\theta_{\perp a}^{2}=\left(1-\frac{3}{2\kappa_{a}}\right)v_{T\perp a}^{2}\\
+\\\theta_{\parallel a}^{2}=v_{A}^{2}\tilde{\theta}_{\parallel a}^{2}\quad\theta_{\perp a}^{2}=v_{A}^{2}\tilde{\theta}_{\perp a}^{2}\\
+\tilde{\theta}_{\parallel a}^{2}=\left(1-\frac{3}{2\kappa_{a}}\right)\frac{\mu_{a}}{\tilde{n}_{a}}\beta_{\parallel a}\quad\tilde{\theta}_{\perp a}^{2}=\left(1-\frac{3}{2\kappa_{a}}\right)\frac{\mu_{a}}{\tilde{n}_{a}}\beta_{\perp a}\\
+f_{\kappa a}\left(u_{\parallel},u_{\perp}\right)=\frac{1}{v_{A}^{3}\pi^{3/2}\kappa_{a}^{3/2}\tilde{\theta}_{\parallel a}\tilde{\theta}_{\perp a}^{2}}\frac{\Gamma\left(\kappa_{a}+1\right)}{\Gamma\left(\kappa_{a}-\nicefrac{1}{2}\right)}\left(1+\frac{\left(u_{\parallel}-U_{Da}\right)^{2}}{\kappa_{a}\tilde{\theta}_{\parallel a}^{2}}+\frac{u_{\perp}^{2}}{\kappa_{a}\tilde{\theta}_{\perp a}^{2}}\right)^{-\left(\kappa_{a}+1\right)}\\
+\tilde{f}_{\kappa a}\left(u_{\parallel},u_{\perp}\right)=v_{A}^{3}f_{\kappa a}\left(u_{\parallel},u_{\perp}\right)\\
+\boxed{\tilde{f}_{\kappa a}\left(u_{\parallel},u_{\perp}\right)=\frac{1}{\pi^{3/2}\kappa_{a}^{3/2}\tilde{\theta}_{\parallel a}\tilde{\theta}_{\perp a}^{2}}\frac{\Gamma\left(\kappa_{a}+1\right)}{\Gamma\left(\kappa_{a}-\nicefrac{1}{2}\right)}\left(1+\frac{\left(u_{\parallel}-U_{Da}\right)^{2}}{\kappa_{a}\tilde{\theta}_{\parallel a}^{2}}+\frac{u_{\perp}^{2}}{\kappa_{a}\tilde{\theta}_{\perp a}^{2}}\right)^{-\left(\kappa_{a}+1\right)}}
+\end{gather*}
+
+\end_inset
+
+
+\end_layout
+
+\end_body
+\end_document

@@ -1,0 +1,50 @@
+&wavenumber
+kstart		= 0.01
+kend 	       	= 1.20
+nk 	       	= 54
+/
+
+&number_roots
+nroots = 8
+maxit= 100
+/
+
+&initial_guess
+omega_r = 0.0
+omega_i = 0.0
+increment_r	= 0.000001
+increment_i    	= 0.00344
+/
+
+&setup
+set_num = 001
+Nspecies	= 2
+theta		= 0.0
+delta		= 0.003
+/
+
+&accuracy
+rf_error	= 1.0d-3
+eps_error	= 1.0d-6
+/
+
+
+&species
+q_in		= 1.0
+mu_in		= 1.0
+dens_in		= 1.0
+drift_in	= 0.0
+beta_para_in	= 0.17
+beta_perp_in	= 0.17
+kappa_in	= 50.0
+/
+
+&species
+q_in		= -1.0
+mu_in		= 1836.0
+dens_in		= 1.0
+drift_in	= 0.0
+beta_para_in	= 1.36
+beta_perp_in	= 0.17
+kappa_in	= 50.0
+/

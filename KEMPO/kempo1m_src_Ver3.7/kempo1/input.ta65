@@ -1,0 +1,70 @@
+***************************************************************
+      subroutine input
+      include "paramt.h"
+      common /constc/ tcs, bx0, rho0, slx, nx, nxp1, nxp2, npt, ns
+      common /ptprmc/ wp(is), qm(is), q(is), vpe(is), vpa(is),
+     #                vd(is), pch(is), np(is)
+      common /timecm/ itime,ntime,iecrct,iwrite,jobnum
+      common /diagcm/ iediag, ifdiag, ikdiag, ipdiag, isdiag, ivdiag,
+     #                ieplot, ifplot, ikplot, ipplot, isplot, ivplot
+      common /otherc/ vmin,vmax
+      common /inputc/ dx, dt, cv, wc, angle
+c----------------------------------------------------------
+      dx = 4.0
+      dt = 0.16
+      nx = 256
+      ntime = 8192*4
+      iediag = 32
+      isdiag = 32
+      ifdiag = ntime/16
+      ipdiag = ntime/16
+      ivdiag = ntime/16
+      ikdiag = ntime/256
+      ieplot = ntime/iediag
+      ifplot = 1
+      ikplot = nx/8
+      isplot = 512
+      ipplot = 4
+      ivplot = 1
+      vmin   = -20.0
+      vmax   =  20.0
+      cv     = 20
+      wc     = -1.0
+      angle  = 0.
+      iecrct = 9999999
+      iwrite = 8192*32
+      jobnum = 1
+c
+      ns=2
+      wp(1)  = 1.0
+      qm(1)  = -1.0
+      vpe(1) = 0.5
+      vpa(1) = 0.5
+      vd(1)  = 0.0
+      pch(1) = 0.0
+      np(1)  = 8192*4
+c
+      wp(2)  = 0.1
+      qm(2)  = -1.0
+      vpe(2) = 12.0
+      vpa(2) = 6.0
+      vd(2)  = 0.0
+      pch(2) = 0.0
+      np(2)  = 8192*4
+c
+      wp(3)  = 1.0
+      qm(3)  = -1.0
+      vpe(3) = 0.5
+      vpa(3) = 0.5
+      vd(3)  = 10.0
+      pch(3) = 0.0
+      np(3)  = 2048
+c---parameters for nongyrotropy
+      ngs    = 0
+      jperp  = 0
+      dpsi   = 0.
+      ncycle = 0
+c
+c----------------------------------------------------------
+      return
+      end

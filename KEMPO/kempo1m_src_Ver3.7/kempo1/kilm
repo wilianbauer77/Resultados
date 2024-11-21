@@ -1,0 +1,12 @@
+#!/usr/bin/perl
+$command = $ARGV[0];
+open(OUT, "ps | ");
+while (<OUT>) {
+ 	if(/^\s+(\d+)\s+\S+\s+\S+\s+(\S+)\s/ ) {
+		if($command eq $2) {
+		print "killing $1 \n";
+     		system("kill -9  $1");
+		}
+	}
+}
+close(OUT);

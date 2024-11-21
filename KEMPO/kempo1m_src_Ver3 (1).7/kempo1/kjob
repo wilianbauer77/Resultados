@@ -1,0 +1,10 @@
+#! /bin/csh -f
+set dir_compile = ~/kempo1
+set dir_run = /dk3/omura/PwR05j2
+set program = a
+cd $dir_compile
+make
+mv $dir_compile/$program $dir_run/$program
+rm *.o
+cd $dir_run
+$program < com.txt

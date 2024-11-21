@@ -96,14 +96,14 @@
 \begin_inset Formula 
 \begin{gather*}
 f_{Ma}\left(v_{\parallel},v_{\perp}\right)=\frac{1}{\pi^{3/2}v_{T\parallel a}v_{T\perp a}^{2}}\exp\left(-\frac{\left(v_{\parallel}-V_{Da}\right)^{2}}{v_{T\parallel a}^{2}}-\frac{v_{\perp}^{2}}{v_{T\perp a}^{2}}\right)\\
-v_{T\parallel a}^{2}=\frac{2T_{\parallel a}}{m_{a}}\quad v_{T\perp a}^{2}=\frac{2T_{\perp a}}{m_{a}}\\
+v_{T\parallel a}^{2}=\frac{2T_{\parallel a}}{m_{a}},\quad v_{T\perp a}^{2}=\frac{2T_{\perp a}}{m_{a}}\\
 \\v_{A}^{2}=\frac{B^{2}}{4\pi n_{i}m_{i}}\\
-\beta_{\parallel a}=\frac{8\pi n_{a}T_{\parallel a}}{B^{2}}\quad\beta_{\perp a}=\frac{8\pi n_{a}T_{\perp a}}{B^{2}}\\
-\\v_{\parallel}=v_{A}u_{\parallel}\quad v_{\perp}=v_{A}u_{\perp}\quad U_{Da}=\frac{V_{Da}}{v_{A}}\\
-\mu_{a}=\frac{m_{i}}{m_{a}}\quad\tilde{q}_{a}=\frac{q_{a}}{q_{i}}\qquad\tilde{n}_{a}=\frac{n_{a}}{n_{i}}\\
+\beta_{\parallel a}=\frac{8\pi n_{a}T_{\parallel a}}{B^{2}},\quad\beta_{\perp a}=\frac{8\pi n_{a}T_{\perp a}}{B^{2}}\\
+\\v_{\parallel}=v_{A}u_{\parallel},\quad v_{\perp}=v_{A}u_{\perp},\quad U_{Da}=\frac{V_{Da}}{v_{A}}\\
+\mu_{a}=\frac{m_{i}}{m_{a}},\quad\tilde{q}_{a}=\frac{q_{a}}{q_{i}},\qquad\tilde{n}_{a}=\frac{n_{a}}{n_{i}}\\
 f_{Ma}\left(u_{\parallel},u_{\perp}\right)=\frac{1}{\pi^{3/2}v_{T\parallel a}v_{T\perp a}^{2}}\exp\left(-\frac{v_{A}^{2}\left(u_{\parallel}-U_{Da}\right)^{2}}{v_{T\parallel a}^{2}}-\frac{v_{A}^{2}u_{\perp}^{2}}{v_{T\perp a}^{2}}\right)\\
-\frac{v_{T\parallel a}^{2}}{v_{A}^{2}}=\frac{m_{i}}{m_{a}}\frac{n_{i}}{n_{a}}\frac{8\pi n_{a}T_{\parallel a}}{B^{2}}=\frac{m_{i}}{m_{a}}\frac{n_{i}}{n_{a}}\beta_{\parallel a}=\frac{\mu_{a}}{\tilde{n}_{a}}\beta_{\parallel a}\qquad v_{T\parallel a}=v_{A}\sqrt{\frac{\mu_{a}}{\tilde{n}_{a}}}\sqrt{\beta_{\parallel a}}\\
-\frac{v_{T\perp a}^{2}}{v_{A}^{2}}=\frac{m_{i}}{m_{a}}\frac{n_{i}}{n_{a}}\frac{8\pi n_{a}T_{\perp a}}{B^{2}}=\frac{m_{i}}{m_{a}}\frac{n_{i}}{n_{a}}\beta_{\perp a}=\frac{\mu_{a}}{\tilde{n}_{a}}\beta_{\perp a}\qquad v_{T\perp a}^{2}=v_{A}^{2}\frac{\mu_{a}}{\tilde{n}_{a}}\beta_{\perp a}\\
+\frac{v_{T\parallel a}^{2}}{v_{A}^{2}}=\frac{m_{i}}{m_{a}}\frac{n_{i}}{n_{a}}\frac{8\pi n_{a}T_{\parallel a}}{B^{2}}=\frac{m_{i}}{m_{a}}\frac{n_{i}}{n_{a}}\beta_{\parallel a}=\frac{\mu_{a}}{\tilde{n}_{a}}\beta_{\parallel a},\qquad v_{T\parallel a}=v_{A}\sqrt{\frac{\mu_{a}}{\tilde{n}_{a}}}\sqrt{\beta_{\parallel a}}\\
+\frac{v_{T\perp a}^{2}}{v_{A}^{2}}=\frac{m_{i}}{m_{a}}\frac{n_{i}}{n_{a}}\frac{8\pi n_{a}T_{\perp a}}{B^{2}}=\frac{m_{i}}{m_{a}}\frac{n_{i}}{n_{a}}\beta_{\perp a}=\frac{\mu_{a}}{\tilde{n}_{a}}\beta_{\perp a},\qquad v_{T\perp a}^{2}=v_{A}^{2}\frac{\mu_{a}}{\tilde{n}_{a}}\beta_{\perp a}\\
 \begin{aligned}f_{Ma}\left(u_{\parallel},u_{\perp}\right) & =\frac{1}{\pi^{3/2}v_{T\parallel a}v_{T\perp a}^{2}}\exp\left(-\frac{\left(u_{\parallel}-U_{Da}\right)^{2}}{\frac{\mu_{a}}{\tilde{n}_{a}}\beta_{\parallel a}}-\frac{u_{\perp}^{2}}{\frac{\mu_{a}}{\tilde{n}_{a}}\beta_{\perp a}}\right)\\
  & =\frac{1}{\pi^{3/2}v_{T\parallel a}v_{T\perp a}^{2}}\exp\left(-\tilde{n}_{a}\frac{\left(u_{\parallel}-U_{Da}\right)^{2}}{\mu_{a}\beta_{\parallel a}}-\frac{\tilde{n}_{a}u_{\perp}^{2}}{\mu_{a}\beta_{\perp a}}\right)\\
  & =\frac{1}{v_{A}^{3}}\frac{\tilde{n}_{a}^{3/2}}{\pi^{3/2}\mu_{a}^{3/2}\sqrt{\beta_{\parallel a}}\beta_{\perp a}}\exp\left(-\tilde{n}_{a}\frac{\left(u_{\parallel}-U_{Da}\right)^{2}}{\mu_{a}\beta_{\parallel a}}-\frac{\tilde{n}_{a}u_{\perp}^{2}}{\mu_{a}\beta_{\perp a}}\right)

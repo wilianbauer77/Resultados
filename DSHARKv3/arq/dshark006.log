@@ -1,0 +1,220 @@
+ Read input data
+ ...done
+  
+-------     1--------k=  0.01000000
+Warning: Muller did not converge in 22565 steps for roots: 7 8
+ time elapsed:  0.53843099999999999     
+  
+-------     2--------k=  0.10240741
+Warning: Muller did not converge in 22565 steps for roots: 7 8
+ time elapsed:  0.56338400000000000     
+  
+-------     3--------k=  0.19481481
+Warning: Muller did not converge in 22565 steps for roots: 7 8
+ time elapsed:  0.57817399999999997     
+  
+-------     4--------k=  0.28722222
+Warning: Muller did not converge in 22565 steps for roots: 7 8
+ time elapsed:  0.58810899999999977     
+  
+-------     5--------k=  0.37962963
+Warning: Muller did not converge in 22565 steps for roots: 7 8
+ time elapsed:  0.59770900000000005     
+  
+-------     6--------k=  0.47203704
+Warning: Muller did not converge in 22565 steps for roots: 7 8
+ time elapsed:  0.71286199999999988     
+  
+-------     7--------k=  0.56444444
+Warning: Muller did not converge in 22565 steps for roots: 7 8
+ time elapsed:  0.80766300000000069     
+  
+-------     8--------k=  0.65685185
+Warning: Muller did not converge in 22565 steps for roots: 7 8
+ time elapsed:  0.88791500000000045     
+  
+-------     9--------k=  0.74925926
+Warning: Muller did not converge in 22565 steps for roots: 7 8
+ time elapsed:  0.82057799999999936     
+  
+-------    10--------k=  0.84166667
+Warning: Muller did not converge in 22565 steps for roots: 7 8
+ time elapsed:   1.1690490000000002     
+  
+-------    11--------k=  0.93407407
+Warning: Muller did not converge in 22565 steps for roots: 7 8
+ time elapsed:   1.2294049999999999     
+  
+-------    12--------k=  1.02648148
+Warning: Muller did not converge in 22565 steps for roots: 7 8
+ time elapsed:   1.2079649999999997     
+  
+-------    13--------k=  1.11888889
+Warning: Muller did not converge in 22565 steps for roots: 7 8
+ time elapsed:   1.2141240000000000     
+  
+-------    14--------k=  1.21129630
+Warning: Muller did not converge in 22565 steps for roots: 7 8
+ time elapsed:   1.1820269999999997     
+  
+-------    15--------k=  1.30370370
+Warning: Muller did not converge in 22565 steps for roots: 7 8
+ time elapsed:   1.3046199999999999     
+  
+-------    16--------k=  1.39611111
+Warning: Muller did not converge in 22565 steps for roots: 7 8
+ time elapsed:   1.3147420000000007     
+  
+-------    17--------k=  1.48851852
+Warning: Muller did not converge in 22565 steps for roots: 7 8
+ time elapsed:   1.2406150000000000     
+  
+-------    18--------k=  1.58092593
+Warning: Muller did not converge in 22565 steps for roots: 7 8
+ time elapsed:   1.2419680000000000     
+  
+-------    19--------k=  1.67333333
+Warning: Muller did not converge in 22565 steps for roots: 7 8
+ time elapsed:   1.3341390000000004     
+  
+-------    20--------k=  1.76574074
+Warning: Muller did not converge in 22565 steps for roots: 7 8
+ time elapsed:   1.3427780000000027     
+  
+-------    21--------k=  1.85814815
+Warning: Muller did not converge in 22565 steps for roots: 7 8
+ time elapsed:   1.3988019999999999     
+  
+-------    22--------k=  1.95055556
+Warning: Muller did not converge in 22565 steps for roots: 7 8
+ time elapsed:   1.3848310000000019     
+  
+-------    23--------k=  2.04296296
+Warning: Muller did not converge in 22565 steps for roots: 7 8
+ time elapsed:   1.3772990000000007     
+  
+-------    24--------k=  2.13537037
+Warning: Muller did not converge in 22565 steps for roots: 7 8
+ time elapsed:   1.4467889999999990     
+  
+-------    25--------k=  2.22777778
+Warning: Muller did not converge in 22565 steps for roots: 7 8
+ time elapsed:   1.4310210000000012     
+  
+-------    26--------k=  2.32018519
+Warning: Muller did not converge in 22565 steps for roots: 7 8
+ time elapsed:   1.3899730000000012     
+  
+-------    27--------k=  2.41259259
+Warning: Muller did not converge in 22565 steps for roots: 7 8
+ time elapsed:   1.4175539999999991     
+  
+-------    28--------k=  2.50500000
+Warning: Muller did not converge in 22565 steps for roots: 7 8
+ time elapsed:   1.4176859999999998     
+  
+-------    29--------k=  2.59740741
+Warning: Muller did not converge in 22565 steps for roots: 7 8
+ time elapsed:   1.4045999999999985     
+  
+-------    30--------k=  2.68981481
+Warning: Muller did not converge in 22565 steps for roots: 7 8
+ time elapsed:   1.3838829999999973     
+  
+-------    31--------k=  2.78222222
+Warning: Muller did not converge in 22565 steps for roots: 7 8
+ time elapsed:   1.3851000000000013     
+  
+-------    32--------k=  2.87462963
+Warning: Muller did not converge in 22565 steps for roots: 7 8
+ time elapsed:   1.3562870000000018     
+  
+-------    33--------k=  2.96703704
+Warning: Muller did not converge in 22565 steps for roots: 7 8
+ time elapsed:   1.3523580000000024     
+  
+-------    34--------k=  3.05944444
+Warning: Muller did not converge in 22565 steps for roots: 7 8
+ time elapsed:   1.3546539999999965     
+  
+-------    35--------k=  3.15185185
+Warning: Muller did not converge in 22565 steps for roots: 7 8
+ time elapsed:   1.3324190000000016     
+  
+-------    36--------k=  3.24425926
+Warning: Muller did not converge in 22565 steps for roots: 7 8
+ time elapsed:   1.4419350000000009     
+  
+-------    37--------k=  3.33666667
+Warning: Muller did not converge in 22565 steps for roots: 7 8
+ time elapsed:   1.3843190000000050     
+  
+-------    38--------k=  3.42907407
+Warning: Muller did not converge in 22565 steps for roots: 7 8
+ time elapsed:   1.4157549999999972     
+  
+-------    39--------k=  3.52148148
+Warning: Muller did not converge in 22565 steps for roots: 7 8
+ time elapsed:   1.3465240000000023     
+  
+-------    40--------k=  3.61388889
+Warning: Muller did not converge in 22565 steps for roots: 7 8
+ time elapsed:   1.3629940000000005     
+  
+-------    41--------k=  3.70629630
+Warning: Muller did not converge in 22565 steps for roots: 7 8
+ time elapsed:   1.3482119999999966     
+  
+-------    42--------k=  3.79870370
+Warning: Muller did not converge in 22565 steps for roots: 7 8
+ time elapsed:   1.3009660000000025     
+  
+-------    43--------k=  3.89111111
+Warning: Muller did not converge in 22565 steps for roots: 7 8
+ time elapsed:   1.3233379999999997     
+  
+-------    44--------k=  3.98351852
+Warning: Muller did not converge in 22565 steps for roots: 7 8
+ time elapsed:   1.3164740000000066     
+  
+-------    45--------k=  4.07592593
+Warning: Muller did not converge in 22565 steps for roots: 7 8
+ time elapsed:   1.3129279999999994     
+  
+-------    46--------k=  4.16833333
+Warning: Muller did not converge in 22565 steps for roots: 7 8
+ time elapsed:   1.3653339999999972     
+  
+-------    47--------k=  4.26074074
+Warning: Muller did not converge in 22565 steps for roots: 7 8
+ time elapsed:   1.3469949999999997     
+  
+-------    48--------k=  4.35314815
+Warning: Muller did not converge in 22565 steps for roots: 7 8
+ time elapsed:   1.3553300000000021     
+  
+-------    49--------k=  4.44555556
+Warning: Muller did not converge in 22565 steps for roots: 7 8
+ time elapsed:   1.3604830000000021     
+  
+-------    50--------k=  4.53796296
+Warning: Muller did not converge in 22565 steps for roots: 7 8
+ time elapsed:   1.3894760000000019     
+  
+-------    51--------k=  4.63037037
+Warning: Muller did not converge in 22565 steps for roots: 7 8
+ time elapsed:   1.5414209999999997     
+  
+-------    52--------k=  4.72277778
+Warning: Muller did not converge in 22565 steps for roots: 7 8
+ time elapsed:   1.5602630000000062     
+  
+-------    53--------k=  4.81518519
+Warning: Muller did not converge in 22565 steps for roots: 7 8
+ time elapsed:   1.5881729999999976     
+  
+-------    54--------k=  4.90759259
+Warning: Muller did not converge in 22565 steps for roots: 7 8
+ time elapsed:   1.5965259999999972     
+
+Total time elapsed(s): 67.369142999999994
